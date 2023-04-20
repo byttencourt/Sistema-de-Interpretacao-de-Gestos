@@ -1,5 +1,4 @@
 
- Sistema de Interpretação de Gestos com Python e Machine Learning
 <div align="center">
     <img src="https://i.imgur.com/ytL2dBF.png" width="400px">
     <h1>Sistema de Interpretação de Gestos</h1>
