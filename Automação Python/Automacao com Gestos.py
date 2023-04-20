@@ -4,7 +4,7 @@ import numpy as np
 import math
 
 cap = cv2.VideoCapture(0)
-
+chrome = False
 while (1):
 
     try:  # um erro ocorre se não encontrar nada na janela, pois não
@@ -98,6 +98,7 @@ while (1):
 
         # imprimir gestos correspondentes que estão em seus intervalos
         font = cv2.FONT_HERSHEY_SIMPLEX
+
         if l == 1:
 
             if areacnt < 2000:  # significa que não existe objeto na região
@@ -105,7 +106,7 @@ while (1):
             else:
                 executado = False
                 if arearatio < 12 and not executado:
-                    cv2.putText(frame, '0 = Navegador', (0, 50), font, 2, (0, 0, 255), 3, cv2.LINE_AA)
+                    cv2.putText(frame, '0 = nada', (0, 50), font, 2, (0, 0, 255), 3, cv2.LINE_AA)
                     #os.system("start Chrome.exe --window-size=800,600")
                     #executado = True
                     #break
@@ -118,21 +119,22 @@ while (1):
 
 
                 else:
-                    cv2.putText(frame, '1 = Word', (0, 50), font, 2, (0, 0, 255), 3, cv2.LINE_AA)
+                    cv2.putText(frame, '1 = Dedo', (0, 50), font, 2, (0, 0, 255), 3, cv2.LINE_AA)
                     # os.system("start WINWORD.EXE --window-size=600,400")
                     # break
 
         elif l == 2:
             cv2.putText(frame, '2 = Abrir chrome', (0, 50), font, 2, (0, 0, 255), 3, cv2.LINE_AA)
-            os.system("start Chrome.exe --window-size=800,600")
-            executado = True
-            # os.system("start Excel.exe --window-size=600,400")
-            break
+            if chrome == False:
+                os.system("start Chrome.exe --window-size=800,600")
+                chrome = True
+                # os.system("start Excel.exe --window-size=600,400")
+                #break
 
         elif l == 3:
 
             if arearatio < 27:
-                cv2.putText(frame, '3 = Power Point', (0, 50), font, 2, (0, 0, 255), 3, cv2.LINE_AA)
+                cv2.putText(frame, '3 = Dedos', (0, 50), font, 2, (0, 0, 255), 3, cv2.LINE_AA)
                 # os.system("start POWERPNT.EXE --window-size=600,400")
 
             else:

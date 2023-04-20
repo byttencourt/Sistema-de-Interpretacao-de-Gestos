@@ -19,14 +19,16 @@ Sistema de Interpretação de Gestos com Python e Machine Learning utilizando a 
  
 
 # Techs Used
- <img src="http://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" height="96" width="96px" />
- <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/opencv/opencv-original-wordmark.svg" height="96" width="96px" />
+ <img src="http://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" height="96" width="96px" /><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/opencv/opencv-original-wordmark.svg" height="96" width="96px" />
 
 
 
 # Screenshots
-  <img src="https://i.imgur.com/5ZDnfIq.png"> 
-  <img src="https://i.imgur.com/DHLh1Jj.png"> 
-  <img src="https://i.imgur.com/1ianVzM.png"> 
+  <img src="https://i.imgur.com/zvTHFPX.png">
+  <img src="https://i.imgur.com/Mp8Zdps.png"> 
+  <img src="https://i.imgur.com/phLrlJL.png"> 
+  <img src="https://i.imgur.com/YMWUukW.png"> 
+  <img src="https://i.imgur.com/HZbK43b.png">
+  
   
   
