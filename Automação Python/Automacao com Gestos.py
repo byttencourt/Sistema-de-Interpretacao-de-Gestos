@@ -106,7 +106,7 @@ while (1):
             else:
                 executado = False
                 if arearatio < 12 and not executado:
-                    cv2.putText(frame, '0 = nada', (0, 50), font, 2, (0, 0, 255), 3, cv2.LINE_AA)
+                    cv2.putText(frame, '0 Dedos', (0, 50), font, 2, (0, 0, 255), 3, cv2.LINE_AA)
                     #os.system("start Chrome.exe --window-size=800,600")
                     #executado = True
                     #break
@@ -119,12 +119,12 @@ while (1):
 
 
                 else:
-                    cv2.putText(frame, '1 = Dedo', (0, 50), font, 2, (0, 0, 255), 3, cv2.LINE_AA)
+                    cv2.putText(frame, '1 Dedo', (0, 50), font, 2, (0, 0, 255), 3, cv2.LINE_AA)
                     # os.system("start WINWORD.EXE --window-size=600,400")
                     # break
 
         elif l == 2:
-            cv2.putText(frame, '2 = Abrir chrome', (0, 50), font, 2, (0, 0, 255), 3, cv2.LINE_AA)
+            cv2.putText(frame, '2 Dedos = Abrir chrome', (0, 50), font, 2, (0, 0, 255), 3, cv2.LINE_AA)
             if chrome == False:
                 os.system("start Chrome.exe --window-size=800,600")
                 chrome = True
@@ -134,7 +134,7 @@ while (1):
         elif l == 3:
 
             if arearatio < 27:
-                cv2.putText(frame, '3 = Dedos', (0, 50), font, 2, (0, 0, 255), 3, cv2.LINE_AA)
+                cv2.putText(frame, '3 Dedos', (0, 50), font, 2, (0, 0, 255), 3, cv2.LINE_AA)
                 # os.system("start POWERPNT.EXE --window-size=600,400")
 
             else:
@@ -150,10 +150,10 @@ while (1):
             # os.system("start Spyder.launch.pyw")
 
         elif l == 6:
-            cv2.putText(frame, 'reposition', (0, 50), font, 2, (0, 0, 255), 3, cv2.LINE_AA)
+            cv2.putText(frame, 'reposicione', (0, 50), font, 2, (0, 0, 255), 3, cv2.LINE_AA)
 
         else:
-            cv2.putText(frame, 'reposition', (10, 50), font, 2, (0, 0, 255), 3, cv2.LINE_AA)
+            cv2.putText(frame, 'reposicione', (10, 50), font, 2, (0, 0, 255), 3, cv2.LINE_AA)
 
         # show the windows
         cv2.imshow('mask', mask)
