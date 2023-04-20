@@ -1,7 +1,7 @@
 
 <div align="center">
-    <img src="https://i.imgur.com/ytL2dBF.png" width="400px">
     <h1>Sistema de Interpretação de Gestos</h1>
+    <img src="https://i.imgur.com/ytL2dBF.png" width="400px">
 </div>
      
   <!--<p align="center">
