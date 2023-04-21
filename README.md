@@ -25,9 +25,9 @@ Sistema de Interpretação de Gestos com Python e Machine Learning utilizando a 
 # Screenshots
   <img src="https://i.imgur.com/Mp8Zdps.png"> 
   <img src="https://i.imgur.com/zvTHFPX.png">
-  <img src="https://i.imgur.com/phLrlJL.png"> 
+  <img src="https://i.imgur.com/Wog5OXE.png"> 
   <img src="https://i.imgur.com/YMWUukW.png"> 
-  <img src="https://i.imgur.com/HZbK43b.png">
+  <img src="https://i.imgur.com/mUCY5GX.png">
   
   
   
